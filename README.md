@@ -29,8 +29,22 @@ Two sorts of data processing have been applied to the training data :
 
 ### Neural network design
 
+Since our inputs are images, a naturel choice was the use of a convolutional neural network. The architecture used is AlexNet (link, 5 convolutional layer + 3 fully connected layers) for its effectiveness and easiness to implement using TensorFlow.
+
 ## Get started
+
+1. Start the Traffic game
+2. Execute "enreg_fenetre.py" to correctly position manually the game's windows in the OpenCV screenshot zone
+3. Execute "create_training_data.py" to begin recording training data while playing the game
+Processing
+4. Execute "decale_data.py" to apply the delay to the training data for anticipation matters
+5. Execute "raffinage_data.py" to delete the excess of straight-driving training data
+
+6. Execute "train_model.py" to initialize the model and begin its training using the processed data
+7. Execute "test_model.py" to test the model on the game
+
 
 ## Thanks 
 
-sentdex, alexnet
+This project was inspired by sentdex's Python plays GTA V series on youtube, keep up your amazing work :)
+Big thanks to Alex Krizhevsky for the AlexNet architecture !
