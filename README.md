@@ -4,12 +4,12 @@ This project is a Python implementation of a deep learning AI able to steer a ca
 
 ## Requirements
 
-**Traffic: Road Racing - Asphalt Street Cars Racer 2**, downloadable for free at the [Microsoft Store](https://www.microsoft.com/fr-mq/p/traffic-road-racing-asphalt-street-cars-racer-2/9nblggh11033).  
-Python 3  
-OpenCV  
-PyAutoGUI  
-Tensorflow  
-TFLearn  
+* **Traffic: Road Racing - Asphalt Street Cars Racer 2** *(downloadable for free at the [Microsoft Store](https://www.microsoft.com/fr-mq/p/traffic-road-racing-asphalt-street-cars-racer-2/9nblggh11033))*
+* Python 3
+* OpenCV
+* PyAutoGUI
+* Tensorflow
+* TFLearn
 
 ## Design
 
@@ -32,15 +32,15 @@ Since our inputs are images, a naturel choice was the use of a convolutional neu
 ## Get started
 
 1. Start the Traffic game
-2. Execute `enreg_fenetre.py` to correctly position manually the game's windows in the OpenCV screenshot zone
-3. Execute `create_training_data.py` to begin recording training data while playing the game
-4. Execute `decale_data.py` to apply the delay to the training data for anticipation matters
-5. Execute `raffinage_data.py` to delete the excess of straight-driving training data
-6. Execute `train_model.py` to initialize the model and begin its training using the processed data
-7. Execute `test_model.py` to test the model on the game
+2. Run `enreg_fenetre.py` to correctly position manually the game's windows in the OpenCV screenshot zone
+3. Run `create_training_data.py` to begin recording training data while playing the game
+4. Run `decale_data.py` to apply the delay to the training data for anticipation matters
+5. Run `raffinage_data.py` to delete the excess of straight-driving training data
+6. Run `train_model.py` to initialize the model and begin its training using the processed data
+7. Run `test_model.py` to test the model on the game
 
 
 ## Thanks 
 
 This project was inspired by [sentdex](https://www.youtube.com/user/sentdex)'s [Python plays GTA V](https://www.youtube.com/playlist?list=PLQVvvaa0QuDeETZEOy4VdocT7TOjfSA8a) series on youtube, keep up your amazing work :+1:  
-Big thanks to Alex Krizhevsky for the AlexNet architecture !
+Big thanks to Alex Krizhevsky for the AlexNet architecture :clap:
