@@ -2,6 +2,8 @@
 
 This project is a Python implementation of a deep learning AI able to steer a car through traffic in the game [Traffic: Road Racing - Asphalt Street Cars Racer 2](https://www.microsoft.com/fr-mq/p/traffic-road-racing-asphalt-street-cars-racer-2/9nblggh11033).
 
+![Sans titre3](https://user-images.githubusercontent.com/35910546/63232567-434bce80-c229-11e9-9cb0-5145c781b0cc.png)
+
 ## Requirements
 
 * **Traffic: Road Racing - Asphalt Street Cars Racer 2** *(downloadable for free at the [Microsoft Store](https://www.microsoft.com/fr-mq/p/traffic-road-racing-asphalt-street-cars-racer-2/9nblggh11033))*
@@ -19,6 +21,10 @@ The data structure used in the inputs/outputs of our algorithm is a natural choi
 * the input is processed images of the game which contains all the information about the cars' positions in traffic
 * the output is a directional key which steers the car (out of 3 : left, forward, right)
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/35910546/63232568-434bce80-c229-11e9-815b-b0ac51fb457e.png" width="400">
+</p>
+
 ### Data processing
 
 Two sorts of data processing have been applied to the training data :
@@ -28,6 +34,8 @@ Two sorts of data processing have been applied to the training data :
 ### Neural network design
 
 Since our inputs are images, a naturel choice was the use of a convolutional neural network. The architecture used is [AlexNet](https://en.wikipedia.org/wiki/AlexNet) (5 convolutional layer + 3 fully connected layers) for its effectiveness and easiness to implement using TensorFlow.
+
+![Sans titre2](https://user-images.githubusercontent.com/35910546/63232569-434bce80-c229-11e9-8b33-f0348d1207d8.png)
 
 ## Get started
 
