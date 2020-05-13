@@ -3,7 +3,7 @@
 This project is a Python implementation of a deep learning AI able to steer a car through traffic in the game [Traffic: Road Racing - Asphalt Street Cars Racer 2](https://www.microsoft.com/fr-mq/p/traffic-road-racing-asphalt-street-cars-racer-2/9nblggh11033).
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/35910546/63232567-434bce80-c229-11e9-9cb0-5145c781b0cc.png" height="300">
+  <img src="https://raw.githubusercontent.com/melkarmo/AlexNet4Traffic/master/screenshots/screenshot1.png" height="300">
 </p>
 
 
